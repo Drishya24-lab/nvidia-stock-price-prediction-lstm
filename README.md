@@ -69,6 +69,25 @@ The performance of the model is evaluated using the Root Mean Squared Error (RMS
 #### RMSE for Basic LSTM Model:
 2.4950179266839316
 ### RMSE for Improved Bidirectional LSTM Model:
-**1.2309514573294795**
+1.2309514573294795
+### Conclusion
+
+In this project, we successfully built two deep learning models, **LSTM** and **Bidirectional LSTM**, to predict Nvidia stock prices based on historical data. 
+
+Here’s a summary of the results:
+
+- **LSTM Model**: The basic LSTM model performed reasonably well with an RMSE of **2.495**. This indicates that the model was able to predict the stock prices with some level of accuracy, but there is room for improvement.
+  
+- **Bidirectional LSTM Model**: The improved **Bidirectional LSTM** model significantly outperformed the basic LSTM model, achieving a lower RMSE of **1.230**. The bidirectional approach allows the model to consider both past and future stock prices in its predictions, leading to better accuracy.
+
+#### Key Takeaways:
+- The performance improvement with the Bidirectional LSTM suggests that utilizing both past and future context can capture trends in stock prices more effectively.
+- While the models demonstrated predictive power, stock price prediction is inherently volatile, and further improvements can be made by tuning hyperparameters, using more features, or incorporating additional data sources (e.g., news sentiment analysis or external economic indicators).
+
+#### Future Work:
+- Experiment with more advanced models such as **GRU**, **Attention Mechanisms**, or **Transformer-based models** to further improve prediction accuracy.
+- Explore the use of external data such as market sentiment or news to enhance the model’s predictive power.
+
+
 
 
