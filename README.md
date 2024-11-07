@@ -67,7 +67,6 @@ The model is trained with early stopping to prevent overfitting.
 The performance of the model is evaluated using the Root Mean Squared Error (RMSE).
 
 #### RMSE for Basic LSTM Model:
-```text
 2.4950179266839316
 ### RMSE for Improved Bidirectional LSTM Model:
 **1.2309514573294795**
